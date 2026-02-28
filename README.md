@@ -1,4 +1,4 @@
-# 🔥 Wildfire Evacuation Threat Predictor
+# 🔥 Wildfire Evacuation Threat Predictor 🔥 
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://wildfire-evac-app.streamlit.app/) 
 
@@ -21,7 +21,7 @@ Before predictions are made, the app engineers custom domain-specific features f
 * **Danger Index:** A composite metric weighing the fire's initial area, growth rate, and proximity to the evacuation zone.
 * **Directed Threat Speed:** The raw speed of the fire mathematically penalized if the fire is not moving directly toward the evacuation zone.
 
-## 💻 How to Run Locally
+## How to Run Locally
 
 If you want to run this application on your own machine, follow these steps:
 
@@ -46,7 +46,7 @@ streamlit run app.py
 
 A browser window will automatically open to http://localhost:8501 hosting the app.
 
-## 📂 Repository Structure
+## Repository Structure
 
 app.py: The main Streamlit application code.
 
@@ -56,5 +56,5 @@ wildfire_rsf_model.pkl: The serialized, pre-trained Random Survival Forest model
 
 wildfire_gbsa_model.pkl: The serialized, pre-trained Gradient Boosting Survival model.
 
-## 🏆 Acknowledgments
+## Acknowledgments
 Data and problem framing provided by the WiDS Global Datathon 2026 and WatchDuty.
